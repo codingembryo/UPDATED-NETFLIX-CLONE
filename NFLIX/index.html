@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>NETFLIX</title>
+  </head>
+  <body>
+    <header class="position-relative">
+      <nav class="navbar navbar-expand">
+        <div class="container">
+          <img src="./images/netflix-logo-0.png" alt="logo" />
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent">
+
+            <select class="position-relative py-1" name="" id="select-dropdown">
+                <option value="">English</option>
+                <option value="">French</option>
+                <option value="">Spanish</option>
+              </select>
+            </div>
+            <button type="button" class="red-btn fw-semibold">Sign In</button>
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br>
+      <section
+        class="hero-container h-75 d-flex flex-column align-items-center justify-content-center"
+      >
+        <h1 class="hero-title text-white text-center">
+          Unlimited movies, TV shows, and more
+        </h1>
+        <p class="hero-first-p text-white text-center">
+          Watch anywhere. Cancel anytime.
+        </p>
+        <p class="hero-second-p text-white text-center">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <br>
+        <form
+          class="row g-3 d-flex align-items-center justify-content-center w-100 w-lg-50"
+        >
+          <div class="form-floating col-auto">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="get-started-btn red-btn fw-bold">
+              Get Started
+            </button>
+          </div>
+        </form>
+      </section>
+    </header>
+    <section
+      class="purple-section position-absolute d-flex justify-content-center mt-5"
+    >
+      <div class="container-md d-row d-md-flex justify-content-center">
+        <div
+          class="d-flex align-items-center justify-content-end px-4 col-12 col-md-5"
+        >
+          <img class="img-fluid" src="./images/popcorn.jpg" alt="popcorn" />
+        </div>
+        <div class="d-flex flex-column justify-content-center col-12 col-md-7">
+          <p>The Netflix you love for just $6.99.</p>
+          <p>Get the Standard with ads plan.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="enjoy-section py-5 bg-black text-light">
+      <div class="container d-flex row" id="top">
+        <div class="d-flex flex-column justify-content-center col-12 col-lg-6">
+          <h2 class="section-title text-center text-lg-start">
+            Enjoy on your TV
+          </h2>
+          <p class="section-paragraph text-center text-lg-start">
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid" src="./images/second.png" alt="Tv" />
+        </div>
+      </div>
+    </section>
+
+    <section class="watch-section py-5 bg-black text-light">
+      <div class="container d-flex row m-auto">
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid" src="./images/third.png" alt="third" />
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center col-12 col-lg-6 order-first order-lg-last"
+        >
+          <h2 class="section-title text-center text-lg-start">
+            Watch everywhere
+          </h2>
+          <p class="section-paragraph text-center text-lg-start">
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="children-section py-5 bg-black text-light">
+      <div class="container d-flex row m-auto">
+        <div class="d-flex flex-column justify-content-center col-12 col-lg-6">
+          <h2 class="section-title text-center text-lg-start">
+            Create profiles for kids
+          </h2>
+          <p class="section-paragraph text-center text-lg-start">
+            Send kids on adventures with their favorite characters in a space
+            made just for them—free with your membership.
+          </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid" src="./images/fourth.png" alt="children" />
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section py-5 bg-black text-light">
+      <div class="container d-flex row m-auto">
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid" src="./images/fifth.png" alt="fifth" />
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center col-12 col-lg-6 order-first order-lg-last"
+        >
+          <h2 class="section-title text-center text-lg-start">
+            Download your shows to watch offline
+          </h2>
+          <p class="section-paragraph text-center text-lg-start">
+            Watch on a plane, train, or submarine...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section py-5 bg-black text-lg-dark">
+      <div class="container">
+        <h2 class="text-center mb-4" id="headtext">Frequently Asked Questions</h2>
+        <div class="accordion" id="accordionExample">
+          <!-- ACCORDION ONE -->
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapose p-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                arial-controls="#collapseOne"
+              >
+                What is Netflix?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices. You can watch as
+                much as you want, whenever you want – all for one low monthly
+                price. There's always something new to discover and new TV shows
+                and movies are added every week!
+              </div>
+            </div>
+          </div>
+          <!-- ACCORDION TWO -->
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapose p-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                arial-controls="#collapseTwo"
+              >
+                How much does Netflix cost?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices. You can watch as
+                much as you want, whenever you want – all for one low monthly
+                price. There's always something new to discover and new TV shows
+                and movies are added every week!
+              </div>
+            </div>
+          </div>
+          <!-- ACCORDION THREE -->
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapose p-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                arial-controls="#collapseThree"
+              >
+                Where Can I Watch?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices. You can watch as
+                much as you want, whenever you want – all for one low monthly
+                price. There's always something new to discover and new TV shows
+                and movies are added every week!
+              </div>
+            </div>
+          </div>
+          <!-- ACCORDION FOUR -->
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapose p-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                arial-controls="#collapseFour"
+              >
+                How Do I Cancel?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices. You can watch as
+                much as you want, whenever you want – all for one low monthly
+                price. There's always something new to discover and new TV shows
+                and movies are added every week!
+              </div>
+            </div>
+          </div>
+          <!-- ACCORDIONG FIVE -->
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapose p-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                arial-controls="#collapseFive"
+              >
+                What Can I Watch On Netflix?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices. You can watch as
+                much as you want, whenever you want – all for one low monthly
+                price. There's always something new to discover and new TV shows
+                and movies are added every week!
+              </div>
+            </div>
+          </div>
+          <!-- ACCORDION SIX -->
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapose p-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                arial-controls="#collapseSix"
+              >
+                Is Netflix Good For Kids?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices. You can watch as
+                much as you want, whenever you want – all for one low monthly
+                price. There's always something new to discover and new TV shows
+                and movies are added every week!
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-center mt-5" id="footer-area-input">
+          Ready to watch? Enter your email to create or restart your membership.
+        </h3>
+        <form
+          class="row g-3 d-flex align-items-center justify-content-center w-100 w-lg-75 m-auto"
+        >
+          <div class="form-floating col-auto">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="get-started-btn red-btn fw-bold" id="footer-area">
+              Get Started
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="py-5 bg-black text-light">
+      <div class="container">
+        <div class="">
+          <p>Questions? Call <a href="#">8176654499</a></p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <ul>
+              <li class="mb-2">
+                <a href="">Account</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Media Center</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Netflix Shop</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Ways to Watch</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Cookies Preferences</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Speed Text</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Only on Netflix</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4">
+            <ul>
+              <li class="mb-2">
+                <a href="">Help Center</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Investor Relations</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Redeem Gift Cards</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Term of Use</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Corporate Information</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Legal Guarantee</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Advert Choices</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4">
+            <ul>
+              <li class="mb-2">
+                <a href="">Account</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Jobs</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Buy Gift Cards</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Privacy</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Contact Us</a>
+              </li>
+              <li class="mb-2">
+                <a href="">Legal Notices</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="py-3">
+          <div class="position-absolute">
+            <img
+              class="position-absolute"
+              width="17"
+              src="./images/globe-icon.png"
+              alt="globe"
+            />
+          </div>
+          <div class="position-absolute">
+            <div class="arrow-down position-absolute"></div>
+          </div>
+          <select class="position-relative py-1" name="" id="">
+            <option value="">English</option>
+          </select>
+        </div>
+        <p>Netflix United Kingdom</p>
+      </div>
+    </footer>
+
+    <!-- <script src="" async defer></script> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
